@@ -7,4 +7,4 @@ First an update request is issued and then confirmed by sending the correct para
 the username and hashed password.
 
 This script only needs a working wget.
-If you decide to use it don't forget to adjust the base URL to your ddns provider and replace ********** with your username and password respectively.
+If you decide to use it don't forget to adjust the base URL for your ddns provider and replace ********** with your username and password respectively.
