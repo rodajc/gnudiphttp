@@ -15,7 +15,7 @@ sign=$(sed -n '/^<meta name="sign"/s/.*content="\(.*\)">/\1/p' $TMP1)
 user="**********"
 pass="**********"
 pass=$(echo -n "$(echo -n $pass | md5sum | sed 's, .*,,').$salt" | md5sum | sed 's, .*,,')
-domn="box.dynu.com"
+domn="**********"
 reqc="2"
 
 URL="$URLBASE?salt=$salt&time=$time&sign=$sign&user=$user&pass=$pass&domn=$domn&reqc=$reqc"
